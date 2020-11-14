@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F74DE272-3B70-6879-6A9C-9AC431EE2284}</ProjectGuid>
+    <ProjectGuid>{89FF2813-E8C7-C200-21F4-D3532FE8FA51}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,20 +63,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AñadirDaño.cs" />
     <Compile Include="Assets\Scripts\MoverObjetoHorizontalmente.cs" />
     <Compile Include="Assets\Scripts\MoverObjetosVerticalmente.cs" />
+    <Compile Include="Assets\Scripts\MoverPlataformasVerticalmente.cs" />
     <Compile Include="Assets\Scripts\MovimientoPersonaje.cs" />
+    <Compile Include="Assets\Scripts\SaludPersonaje.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Juego-de-plataformas/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Juego-de-plataformas/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Juego-de-plataformas/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/danie/Desktop/Varios/Juego/Juego-de-plataformas/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/2018.4.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
