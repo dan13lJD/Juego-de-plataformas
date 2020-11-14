@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8062918599670760350}
   - component: {fileID: 5945271770968346339}
+  - component: {fileID: 1176854713539855182}
   m_Layer: 0
   m_Name: PlataformaOro
   m_TagString: Untagged
@@ -190,3 +191,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1176854713539855182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614483459284997832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4bf6f493ccdfb647acd0a5241acba93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  minX: 0
+  maxX: 0
