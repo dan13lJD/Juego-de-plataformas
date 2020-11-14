@@ -427,6 +427,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrampaSierraHorizontal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8678882909672786892, guid: 7c3cb972e47acfc48838e71d01870d39,
+        type: 3}
+      propertyPath: minX
+      value: 4.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678882909672786892, guid: 7c3cb972e47acfc48838e71d01870d39,
+        type: 3}
+      propertyPath: maxX
+      value: 5.138
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c3cb972e47acfc48838e71d01870d39, type: 3}
 --- !u!4 &126574028 stripped
@@ -907,21 +917,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 84562448}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &423009603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423009601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4bf6f493ccdfb647acd0a5241acba93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  minX: 4.12
-  maxX: 5.138
 --- !u!95 &423009605
 Animator:
   serializedVersion: 3
@@ -1566,21 +1561,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1821357733603075473}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &571685309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571685308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4bf6f493ccdfb647acd0a5241acba93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  minX: -5.2
-  maxX: -4.11
 --- !u!95 &571685312
 Animator:
   serializedVersion: 3
@@ -2171,6 +2151,7 @@ GameObject:
   - component: {fileID: 757830175}
   - component: {fileID: 757830177}
   - component: {fileID: 757830178}
+  - component: {fileID: 757830179}
   m_Layer: 0
   m_Name: Trofeo
   m_TagString: Untagged
@@ -2277,6 +2258,27 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.19312528, y: -0.37008595}
   - {x: 0.19312526, y: -0.37008595}
+--- !u!50 &757830179
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757830174}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &792805201 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5614483459284997832, guid: 72b299128f40e8745a5626b05c941ee6,
@@ -2939,6 +2941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9039471302235618976, guid: 99b04ac534751cc4ab8009282436096d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99b04ac534751cc4ab8009282436096d, type: 3}
@@ -6369,6 +6376,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.665
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678882909672786892, guid: 7c3cb972e47acfc48838e71d01870d39,
+        type: 3}
+      propertyPath: minX
+      value: -5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678882909672786892, guid: 7c3cb972e47acfc48838e71d01870d39,
+        type: 3}
+      propertyPath: maxX
+      value: -4.11
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7562928873170817860, guid: 7c3cb972e47acfc48838e71d01870d39, type: 3}
