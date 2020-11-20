@@ -121,16 +121,13 @@ GameObject:
   m_Component:
   - component: {fileID: 8062918599670760350}
   - component: {fileID: 5945271770968346339}
-<<<<<<< HEAD
-  - component: {fileID: 1176854713539855182}
-=======
   - component: {fileID: 8573606909352885554}
   - component: {fileID: 7472250652254891220}
   - component: {fileID: 3711257029146093059}
   - component: {fileID: 880326707766280493}
   - component: {fileID: 6411557358081791113}
->>>>>>> 0e2e56926596cc90355d1382ee0bdc7c5d6a2262
-  m_Layer: 0
+  - component: {fileID: 3180178762958563894}
+  m_Layer: 8
   m_Name: PlataformaOro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,28 +196,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
---- !u!114 &1176854713539855182
-MonoBehaviour:
-=======
 --- !u!68 &8573606909352885554
 EdgeCollider2D:
->>>>>>> 0e2e56926596cc90355d1382ee0bdc7c5d6a2262
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5614483459284997832}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4bf6f493ccdfb647acd0a5241acba93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  minX: 0
-  maxX: 0
-=======
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -230,6 +213,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.27565646, y: 0.024107218}
+  - {x: -0.27478004, y: 0.020781517}
   - {x: 0.27522576, y: 0.020567536}
 --- !u!252 &7472250652254891220
 SurfaceEffector2D:
@@ -265,7 +249,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.27781665, y: 0.057806194}
+  - {x: 0.27781665, y: 0.09238225}
   - {x: 0.2768476, y: 0.01651603}
 --- !u!68 &880326707766280493
 EdgeCollider2D:
@@ -284,7 +268,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.2754712, y: 0.023397744}
-  - {x: -0.275064, y: 0.06331158}
+  - {x: -0.27589345, y: 0.07989973}
 --- !u!50 &6411557358081791113
 Rigidbody2D:
   serializedVersion: 4
@@ -306,4 +290,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
->>>>>>> 0e2e56926596cc90355d1382ee0bdc7c5d6a2262
+--- !u!114 &3180178762958563894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614483459284997832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4bf6f493ccdfb647acd0a5241acba93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  minX: 0
+  maxX: 0
