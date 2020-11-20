@@ -5,7 +5,7 @@ using UnityEngine;
 public class SaludPersonaje : MonoBehaviour
 {
     //variables para la salud del personaje
-    public int totalHealth = 3;
+    public int totalHealth;
     private int health;
     private SpriteRenderer _renderer;
 

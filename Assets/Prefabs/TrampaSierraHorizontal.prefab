@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 6394784972857926512}
   - component: {fileID: 4078221523259486612}
   - component: {fileID: 8678882909672786892}
+  - component: {fileID: 7066201854934690732}
   m_Layer: 0
   m_Name: CierraApagada
   m_TagString: Untagged
@@ -305,6 +306,25 @@ MonoBehaviour:
   speed: 1
   minX: 0
   maxX: 0
+--- !u!95 &7066201854934690732
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5721688736505173413}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edc40ea9445f2864197c53ad5ae34890, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7646610822175591171
 GameObject:
   m_ObjectHideFlags: 0
