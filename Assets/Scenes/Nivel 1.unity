@@ -5434,7 +5434,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: 0.28530884, y: 2.9167666}
-  - {x: 0.27365637, y: -2.8856177}
+  - {x: 0.27349567, y: -2.8921256}
 --- !u!212 &1936739229
 SpriteRenderer:
   m_ObjectHideFlags: 0
