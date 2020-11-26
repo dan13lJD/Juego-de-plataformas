@@ -1,14 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SaludPersonaje : MonoBehaviour
 {
     //variables para la salud del personaje
     public int totalHealth;
+    public RectTransform heartUI;
+
+
     private int health;
+    private float heartSize = 16f;
+
     private SpriteRenderer _renderer;
 
+    //pantalla de gameOver
+    public GameObject gameOver;
+    public GameObject ocultarEscena;
 
     private void Awake()
     {
@@ -34,8 +44,13 @@ public class SaludPersonaje : MonoBehaviour
             //de salud no sea un numero negativo
             //si se baja de 0 entonces se asigna la salud a 0
             health = 0;
+            //game over            
+            ocultarEscena.gameObject.SetActive(false);
+            StopAllCoroutines();
+            gameOver.gameObject.SetActive(true);            
         }
 
+        heartUI.sizeDelta = new Vector2(heartSize * health, heartSize);
         Debug.Log("El jugador ha recibido daño, su salud actual es: " + health);
     }
 
